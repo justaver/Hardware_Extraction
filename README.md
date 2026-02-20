@@ -81,16 +81,16 @@ It is the same tool used internally by the Arduino IDE.
 ## System Architecture
 
 Computer  
-→ USB  
-→ Arduino Mega (running ArduinoISP)  
-→ SPI (MOSI, MISO, SCK, RESET)  
-→ Arduino Leonardo (target)
+to USB  
+to Arduino Mega (running ArduinoISP)  
+to SPI (MOSI, MISO, SCK, RESET)  
+to Arduino Leonardo (target)
 
 ---
 
 ## Wiring Configuration
 
-Mega → Leonardo connections:
+Mega to Leonardo connections:
 
 | Mega Pin        | Leonardo Pin (ICSP) |
 |-----------------|---------------------|
@@ -114,7 +114,7 @@ Important:
 
 On the Mega:
 
-File → Examples → 11.ArduinoISP → ArduinoISP  
+File then Examples then 11.ArduinoISP then ArduinoISP  
 Upload to Mega.
 
 ---
